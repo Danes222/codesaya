@@ -1,0 +1,10 @@
+{
+	"name" : "New Tab Danes",
+	"description" : "Custom New Tab",
+	"version" : "1",
+	"manifest_version" : 2,
+	"permission" : ["management"],
+	"chrome_url_overrides" : {
+		"newtab" : "home.html"
+	}
+}
